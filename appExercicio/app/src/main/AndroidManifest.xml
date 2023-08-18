@@ -13,6 +13,9 @@
         android:theme="@style/Theme.PamExercicios"
         tools:targetApi="31">
         <activity
+            android:name=".exe4"
+            android:exported="false" />
+        <activity
             android:name=".exe6"
             android:exported="false" />
         <activity

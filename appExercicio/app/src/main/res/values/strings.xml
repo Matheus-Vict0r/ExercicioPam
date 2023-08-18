@@ -1,6 +1,6 @@
 <resources>
     <string name="app_name">PamExercicios</string>
-    <string name="btn1">Exercicio </string>
+    <string name="btn1">Exercicio 4</string>
     <string name="btn2">Exerccicio 6 </string>
     <string name="txt1">Escolha uma opção do menu </string>
     <string name="codC">Cachorro Quente </string>
@@ -8,4 +8,6 @@
     <string name="CodS">Sobremesa</string>
     <string name="txt2">Digite a quantidade:</string>
     <string name="calcular">Calcular</string>
+    <string name="txt3">Selecione o horário</string>
+    <string name="txt4">Resultado</string>
 </resources>
