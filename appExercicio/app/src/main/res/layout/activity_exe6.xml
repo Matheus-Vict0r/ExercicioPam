@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/codC"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".exe6">
+
+    <RadioGroup
+        android:id="@+id/grupor"
+        android:layout_width="326dp"
+        android:layout_height="182dp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="178dp">
+
+        <RadioButton
+            android:id="@+id/codC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/codC"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/codR"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/codR"
+            android:textSize="24sp" />
+
+        <RadioButton
+            android:id="@+id/codS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/CodS"
+            android:textSize="24sp" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt1"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <Button
+        android:id="@+id/btncalcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="136dp"
+        tools:layout_editor_absoluteY="522dp" />
+
+    <EditText
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="text"
+        android:text="@string/txt2"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="50dp"
+        tools:layout_editor_absoluteY="392dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
