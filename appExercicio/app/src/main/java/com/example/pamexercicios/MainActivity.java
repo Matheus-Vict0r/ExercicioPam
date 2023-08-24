@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
     //declarando variaveis
-    Button btn1, btn2;
+    Button btn4, btn6;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -18,28 +18,20 @@ public class MainActivity extends AppCompatActivity {
 
         // instancia de objetos
 
-        btn1 = findViewById(R.id.btn1);
+        btn4 = findViewById(R.id.btn4);
 
-        btn2 = findViewById(R.id.btn2);
+        btn6 = findViewById(R.id.btn4);
+    }
 
-        btn1.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent abrir_exe4 = new Intent(MainActivity.this, exe4.class);
-                startActivity(abrir_exe4);
-            }
-        });
-
-        btn2.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View v){
-                Intent abrir_exe6 = new Intent(MainActivity.this, exe6.class);
-                startActivity(abrir_exe6);
-            }
-        });
+    public void abrirTela4(View f){
+        Intent intent = new Intent(this,exe4.class );
+        startActivity(intent);
+    }
 
 
-
+    public void abrirTela6(View f){
+        Intent intent = new Intent(this, exe6.class);
+        startActivity(intent);
     }
 
 

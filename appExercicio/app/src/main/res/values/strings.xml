@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">PamExercicios</string>
-    <string name="btn1">Exercicio 4</string>
-    <string name="btn2">Exerccicio 6 </string>
+    <string name="btn4">Exercicio 4</string>
+    <string name="btn6">Exerccicio 6 </string>
     <string name="txt1">Escolha uma opção do menu </string>
     <string name="codC">Cachorro Quente </string>
     <string name="codR">Refrigerante </string>
